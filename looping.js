@@ -37,22 +37,3 @@
 //         }
 //         }
 //         console.log("factors of "+num+" is "+factors);
-       
-
-function addtocart(){
-
-}
-/**
- * This function is used to add a product to the shopping cart.
- *
- * @param {Object} product - The product object to be added to the cart.
- * @param {string} product.id - The unique identifier of the product.
- * @param {string} product.name - The name of the product.
- * @param {number} product.price - The price of the product.
- * @param {number} product.quantity - The quantity of the product to be added to the cart.
- *
- * @returns {boolean} - Returns true if the product is successfully added to the cart, otherwise false.
- */
-function addtocart(product) {
-
-}
