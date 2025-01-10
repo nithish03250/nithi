@@ -1,44 +1,51 @@
-// console.log(10);
+// console.log("javascript is linked to html...")
+// document.writeln("Javscript linked");
 
-// var a = 20;
+// var user = "Sam";
+// user = "Miller"  //? re-intitialization
+// console.log(user);
 
-// let b = 20;
-// const c = 30;
+// let num = 1000;
+// num = true;//? re-intitialization
+// console.log(num);
 
-// function demo() {
-//     var username = "Aravind";
-//     let city = "Hyderabad";
-//     salary = 1000000;
-//     console.log(username, city, salary);
-// }
-// demo();
+// const dob= 1990;
+// dob = 2000; //? re-intitalization is not possible
+// console.log(dob);
 
-// {
-//     let p = 2000;
-//     let q = 30040;
-//     console.log(p, q);
-   
-// }
+// var a =10;
+// var a =30; //! re-decalration
+// console.log(a);
 
-// let str1 = "double quotes";
-// console.log(str1);
+// let b= 20;
+// let b=50;
+// console.log(b);
 
-// let str2 = 'single quote';
-// console.log(str2);
 
-// let bool1 = true;
-// console.log(bool1, typeof(bool1));
-// let bool2 = false;
-// console.log(bool2, typeof(bool2));
+// const c= true;
+// const c =false;
+// console.log(c);
 
-// let num1 = 20;
-// console.log(num1,typeof(num1));
-// let num2 = 20.67890;
-// console.log(num2,typeof(num2));
-// let num3 = 20^3;
-// console.log(num3, typeof (num3));
 
-// let a;
-// console.log(a , typeof(a));
-// let x = null;
-// console.log(x , typeof(x));
+ let str1 = "double quotes";
+ console.log(str1);
+ console.log(typeof(str1));
+
+ let str2 = 'single quotes';
+ console.log(str2);
+ console.log(typeof(str2));
+ let str3 = `template literals`;
+ console.log(str3);
+ console.log(typeof(str3));
+
+ let num = 10.345678;
+ console.log(num , typeof(num));
+
+ let bool = true;
+ console.log(bool , typeof(bool));
+
+ let a;
+ console.log(a , typeof(a));
+
+ let b = null;
+ console.log(b , typeof(b));
